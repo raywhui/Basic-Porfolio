@@ -224,4 +224,22 @@ footer {
 	padding-bottom: 800px;
 }
 
+.button{
+	background-color:#4aaaa5;
+	font-size: 18px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 
+a:hover{
+	color: #6FFFFF;
+}
+
+img:hover{
+	box-shadow:1px 2px 4px 5px #6FFFFF;
+	transition: all 500ms;
+}
