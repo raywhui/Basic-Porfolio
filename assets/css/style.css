@@ -199,8 +199,29 @@ footer {
 	padding-bottom: 1050px;
 }
 
+.input{
+	width: 595px;
+	margin: 10px 0 15px 0;
+	padding: 10px;
+	border:1px solid #cccccc;
+}
 
+.input::placeholder{
+	color:#cccccc;
+}
 
+.message-input{
+	width: 595px;
+	height: 250px;
+	padding:10px;
+	border:1px solid #cccccc;
+	margin: 10px 0 15px 0;
+	resize:vertical;
 
+}
+
+.empty-space-contact{
+	padding-bottom: 800px;
+}
 
 

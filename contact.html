@@ -1,43 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Basic Portfolio</title>
+	<title>Contact</title>
 
 	<link rel="stylesheet" href="./assets/css/reset.css">
 	<link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 
-	<header>
-		<h1>Raymond Hui</h1>
+<header>
+	<h1>Raymond Hui</h1>
 
-		<h1>About</h1> <h1>Portfolio</h1> <h1>Contact</h1>
+	<a class="about" href="#">About</a>
+	<a class="portfolio" href="#">Portfolio</a>
+	<a class="contact" href="#">Contact</a>
 
-	</header>
+</header>
+
 
 
 <body>
-	<h1>Contact</h1>
-	
-	<h3>Name</h3>
-	<!--Add way to input stuff-->
+	<section>
+		<h3>Contact</h3>
 
-	<h3>Email</h3>
-	<!--Add way to input stuff-->
+		<h4>Name</h4>
+		<input class="input" type="text" placeholder="John Doe"> 
 
-	<h3>Message</h3>
-	<!--Add way to input stuff-->
+		<h4>Email</h4>
+		<input class="input" type="email" placeholder="example@email.com"> 
 
-	<!--Add Submit Button-->
-
+		<h4>Message</h4>
+		<textarea class="message-input" type="text">
+		</textarea>	
+		
+		<div>
+			<input class="button" type="submit">
+		</div>
+		<!--Add Submit Button-->
+	</section>
 </body>
 
-<aside>Connect with Me
-	<img src ="Linkedin">
-	<img src ="GitHub">
-	<img src ="StackOverflow">
+<aside>
+	<div class="connect"> Connect with Me </div>
+
+	<div id="icons">
+		<a href="https://GitHub.com" target="_blank"> 
+			<img class="github" src="./assets/images/github_icon.png" alt="GitHub Icon" style="width:62px;height:62px;">
+		</a>
+
+		<a href="https://linkedin.com" target="_blank">
+			<img class="linkedin" src="./assets/images/linkedin_icon.png" alt ="Linkedin Icon" style="width:62px;height:62px;">
+		</a>
+
+		<a href="https://stackoverflow.com" target="_blank"> 
+			<img class="stackedof" src="./assets/images/stackoverflow_icon.png" alt="StackOverflow Icon" style="width:62px;height:62px;">
+		</a>
+	</div>
 </aside>
 
+<div class=empty-space-contact></div>
 
 <footer> &copy; Copyright 2017 Raymond Hui </footer>
 
