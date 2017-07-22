@@ -48,6 +48,16 @@ h1{
 
 }
 
+a:hover{
+	color: #6FFFFF;
+	transition: all 200ms;
+}
+
+img:hover{
+	box-shadow:1px 2px 4px 5px #6FFFFF;
+	transition: all 500ms;
+}
+
 .portfolio{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	float:left;
@@ -221,7 +231,7 @@ footer {
 }
 
 .empty-space-contact{
-	padding-bottom: 800px;
+	padding-bottom: 850px;
 }
 
 .button{
@@ -235,11 +245,3 @@ footer {
     display: inline-block;
 }
 
-a:hover{
-	color: #6FFFFF;
-}
-
-img:hover{
-	box-shadow:1px 2px 4px 5px #6FFFFF;
-	transition: all 500ms;
-}
